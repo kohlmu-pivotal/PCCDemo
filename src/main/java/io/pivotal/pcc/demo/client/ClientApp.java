@@ -88,7 +88,7 @@ public class ClientApp {
 			}
 			Book book = new Book("The Myths of Lore and Legends", isbn, "The Spring Developer",
 				new Date());
-			bookRegion.put(isbn, book);
+			addBook(book);
 			return book;
 		});
 	}
