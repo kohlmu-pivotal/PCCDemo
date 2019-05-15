@@ -1,4 +1,4 @@
-package io.pivotal.pcc.demo.client;
+package io.pivotal.pcc.demo.client.security;
 
 import java.util.Properties;
 
