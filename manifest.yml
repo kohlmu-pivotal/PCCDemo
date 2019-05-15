@@ -1,0 +1,8 @@
+---
+applications:
+  - name: testApp
+    memory: 768M
+    instances: 1
+    no-route: true
+#    buildpacks:
+#      - https://github.com/cloudfoundry/java-buildpack.git
