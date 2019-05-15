@@ -1,0 +1,4 @@
+#!$GEODE_HOME/bin/gfsh
+
+start locator --name=LocatorOne --log-level=config
+start server --name=ServerOne --log-level=config
