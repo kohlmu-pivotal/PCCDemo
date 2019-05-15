@@ -1,8 +1,10 @@
 ---
 applications:
-  - name: testApp
+  - name: gfApp
     memory: 768M
     instances: 1
-    no-route: true
-#    buildpacks:
-#      - https://github.com/cloudfoundry/java-buildpack.git
+    path: ./target/client-0.0.1-SNAPSHOT.war
+    services:
+      - pccService
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
